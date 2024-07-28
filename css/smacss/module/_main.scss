@@ -1,0 +1,158 @@
+.hero {
+  width: 100%;
+  height: 650px;
+  background-image: linear-gradient(rgba(36, 36, 36, 0.8), rgba(36, 36, 36, 0.4)), url(../../../img/buffet-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &-title {
+    text-align: center;
+    font-size: 7.5rem;
+    color: $yellow;
+  }
+}
+
+.about {
+  &-container {
+    padding-top: 6rem;
+  }
+
+  &-img {
+    img {
+      height: 100%;
+    }
+  }
+
+  &-info {
+    font-size: 1.9rem;
+
+    p {
+      &:nth-child(2),
+      &:nth-child(3) {
+        margin-top: 2rem;
+      }
+    }
+  }
+}
+
+.event {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(rgba(31, 27, 11, 0.8), rgba(31, 27, 11, 0.4)), url(../../../img/food-table.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  p {
+    font-size: 3.3rem;
+    color: $white;
+    text-align: center;
+  }
+}
+
+.services {
+  &-images {
+    padding-top: 6rem;
+  }
+
+  &-img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.75);
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    p {
+      text-align: center;
+      font-size: 2rem;
+      font-family: $font-roboto;
+      padding: 2rem 0;
+    }
+  }
+}
+
+.packages {
+  background-color: #f6f6f6;
+
+  &-info {
+    text-align: center;
+    margin: 2rem 0 5rem 0;
+    font-size: 1.8rem;
+  }
+
+  &-sgp {
+    border: 1px solid #ababab;
+  }
+
+  h3 {
+    font-weight: $w500;
+  }
+
+  &-price {
+    background-color: #e9e9e9;
+    font-size: 1.8rem;
+  }
+
+  &-txt,
+  &-li {
+    text-align: center;
+    padding: 1.5rem 0 1.5rem 0;
+
+    svg {
+      margin-right: 0.5rem;
+      fill: $green;
+    }
+  }
+
+  &-txt {
+    border-bottom: 1px solid #cbcbcb;
+  }
+}
+
+.contact {
+  &-info {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 2.5rem;
+    line-height: 2;
+  }
+
+  &-form {
+    margin-top: 5rem;
+  }
+
+  &-inputs,
+  &-comment {
+    label {
+      display: block;
+    }
+
+    input {
+      margin-top: 1rem;
+      width: 100%;
+      height: 4rem;
+      border: 1px solid #c3c3c3;
+    }
+  }
+
+  &-comment {
+    margin-top: 1.5rem;
+
+    textarea {
+      margin-top: 1rem;
+      border: 1px solid #c3c3c3;
+      width: 100%;
+      height: 15rem;
+    }
+  }
+
+  &-btn {
+    color: $white;
+    margin-top: 2rem;
+    background-color: #40a940;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+  }
+}

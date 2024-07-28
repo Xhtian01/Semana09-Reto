@@ -1,0 +1,54 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  &-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2rem;
+  }
+}
+
+.event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services {
+  &-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+
+  &-img {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.packages {
+  &-category {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+  }
+
+  &-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.contact {
+  &-inputs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+  }
+}

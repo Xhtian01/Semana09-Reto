@@ -1,0 +1,58 @@
+@import './normalize';
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: $font-lato;
+  padding-bottom: 2.5rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+hr {
+  margin: 0 auto;
+  border: 1.7px solid $red;
+  width: 10rem;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+.container-width {
+  max-width: 1300px;
+  margin: 0 auto;
+}

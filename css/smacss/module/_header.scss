@@ -1,0 +1,41 @@
+.header {
+  padding: 1.5rem 0;
+}
+
+.navigation {
+  &-item {
+    text-transform: uppercase;
+    margin-right: 4rem;
+    font-weight: $w600;
+  }
+
+  &-link {
+    &:hover {
+      padding-bottom: 1rem;
+      border-bottom: 3px solid $white;
+      animation: border-color 0.3s ease-in forwards;
+    }
+  }
+
+  &-btn {
+    text-transform: uppercase;
+    border: 1px solid $red;
+    padding: 0 6rem;
+    font-weight: $w600;
+
+    &:hover {
+      background-color: $red;
+      color: $white;
+      transition: 0.3s ease-in;
+    }
+  }
+}
+
+@keyframes border-color {
+  from {
+    border-bottom-color: $white;
+  }
+  to {
+    border-bottom-color: $red;
+  }
+}
